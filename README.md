@@ -1,16 +1,23 @@
-# day8_splash
+# Flutter Splash Screen Animation, Application Design
 
-A new Flutter project.
+Flutter Splash Screen Animation, Application UI/UX design - day 8 Flutter Animation and UI Design.
 
-## Getting Started
+This repository is a part of the 100-day design in Flutter.
 
-This project is a starting point for a Flutter application.
+In this video we use, Flutter Animation, AnimationController, Scale, Fade, Opacity and so on in the one-speed video.
 
-A few resources to get you started if this is your first Flutter project:
+[Youtube Video](https://youtu.be/WsbMf9IiWGo)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Last Design
+- [UI Design- Day 1](https://github.com/afgprogrammer/flutter-inspiration-app-ui)
+- [UI Design- Day 2](https://github.com/afgprogrammer/Flutter-trip-app-ui)
+- [UI Design- Day 3](https://github.com/afgprogrammer/Flutter-food-delivery-app-ui)
+- [UI Design- Day 4](https://github.com/afgprogrammer/Flutter-actors-profile-app-ui)
+- [UI Design- Day 5](https://github.com/afgprogrammer/Flutter-ripple-map-application)
+- [UI Design- Day 6](https://github.com/afgprogrammer/Flutter-page-transition-animation)
+- [UI Design- Day 7](https://github.com/afgprogrammer/Flutter-button-animation)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ScreenShot
+
+<img src="assets/screenshot/one.png" height="500em" />&nbsp;<img src="assets/screenshot/two.png" height="500em" />
+
