@@ -98,7 +98,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
     final double width = MediaQuery.of(context).size.width;
 
     return Scaffold(
-      backgroundColor: Color.fromRGBO(3, 9, 23, 1),
+      backgroundColor: Color.fromRGBO(1, 8, 24, 1),
       body: Container(
         width: double.infinity,
         child: Stack(
