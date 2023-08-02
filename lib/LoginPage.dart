@@ -1,7 +1,14 @@
 import 'package:day8_splash/Animations/FadeAnimation.dart';
 import 'package:flutter/material.dart';
 
-class LoginPage extends StatelessWidget {
+class LoginPage extends StatefulWidget {
+  @override
+  State<LoginPage> createState() => _LoginPageState();
+}
+
+class _LoginPageState extends State<LoginPage> {
+  bool isPasswordVisible = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,12 +50,18 @@ class LoginPage extends StatelessWidget {
                     decoration: BoxDecoration(
                     ),
                     child: TextField(
-                      obscureText: true,
+                      obscureText: !isPasswordVisible,
                       style: TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                         border: InputBorder.none,
                         hintStyle: TextStyle(color: Color(0xFF5C5F65)),
-                        suffixIcon: Icon(Icons.remove_red_eye, color: Color(0xFF5C5F65),),
+                        suffixIcon: InkWell(
+                          onTap: () {
+                            setState(() {
+                              isPasswordVisible = !isPasswordVisible;
+                            });
+                          },
+                          child: Icon(Icons.remove_red_eye, color: Color(0xFF5C5F65),)),
                         hintText: "Password"
                       ),
                     ),
